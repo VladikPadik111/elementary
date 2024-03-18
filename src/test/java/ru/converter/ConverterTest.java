@@ -12,7 +12,6 @@ class ConverterTest {
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
-
     }
     @Test
     void whenConvert150RblThen1Dot5Euro() {
@@ -21,7 +20,6 @@ class ConverterTest {
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
-
     }
     @Test
     void whenConvert190RblThen1Dot9Euro() {
@@ -30,7 +28,6 @@ class ConverterTest {
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
-
     }
     @Test
     void whenConvert180RblThen2Dlr() {
