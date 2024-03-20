@@ -53,5 +53,13 @@ class ConverterTest {
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
+    @Test
+    void whenConvert450RblThen5Dlr() {
+        float in = 450;
+        float expected = 5;
+        float out = Converter.rubleToDollar(in);
+        float eps = 0.0001f;
+        assertThat(out).isEqualTo(expected, withPrecision(eps));
+    }
 
 }
