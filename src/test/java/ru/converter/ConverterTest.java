@@ -13,6 +13,7 @@ class ConverterTest {
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
+
     @Test
     void whenConvert150RblThen1Dot5Euro() {
         float in = 150;
@@ -21,6 +22,7 @@ class ConverterTest {
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
+
     @Test
     void whenConvert190RblThen1Dot9Euro() {
         float in = 190;
@@ -29,6 +31,7 @@ class ConverterTest {
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
+
     @Test
     void whenConvert180RblThen2Dlr() {
         float in = 180;
@@ -37,6 +40,7 @@ class ConverterTest {
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
+
     @Test
     void whenConvert270RblThen3Dlr() {
         float in = 270;
@@ -45,6 +49,7 @@ class ConverterTest {
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
+
     @Test
     void whenConvert360RblThen4Dlr() {
         float in = 360;
@@ -53,6 +58,7 @@ class ConverterTest {
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
+
     @Test
     void whenConvert450RblThen5Dlr() {
         float in = 450;

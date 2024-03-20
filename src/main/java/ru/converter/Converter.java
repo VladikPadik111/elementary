@@ -16,8 +16,6 @@ public class Converter {
         System.out.println("140 rubles are " + euro + " euro.");
         float dollar = Converter.rubleToDollar(100);
         System.out.println("100 rubles are " + dollar + " dollars.");
-
-
     }
 
 }
