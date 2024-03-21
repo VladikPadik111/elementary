@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.*;
 
 class PointTest {
 
-        @Test
+    @Test
     void when00to20then2() {
         double expected = 2;
         int x1 = 0;
