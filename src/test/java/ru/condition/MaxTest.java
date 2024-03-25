@@ -33,9 +33,9 @@ class MaxTest {
     }
 
     @Test
-    void whenMax104To7Then2() {
+    void whenMax104To7Then3() {
         int left = 104;
-        int right = 7;
+        int right = 3;
         int result = Max.max(left, right);
         int expected = 104;
         assertThat(result).isEqualTo(expected);
